@@ -10,13 +10,15 @@ body {
 .navbar a {
     text-decoration:none;
     color: rgba(255, 255, 253, 0.72);
+    padding-right: 40px;
 
 }
 .navbar {    
-    font-family:"Inter", sans-serif;;
+    font-family:"Inter", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 160%;
+   
 }
 .btn_header {
     border: none;
@@ -33,4 +35,41 @@ body {
     box-shadow: none;
     position: relative;
     top: 5px;
+}
+
+.first_part {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    padding: 92px 111px;
+}
+.first_part_left_txt_btn {
+    font-family:"Inter", sans-serif;
+    color: #fff;
+}
+h1 {
+font-weight: 500;
+font-size: 64px;
+line-height: 120%;
+}
+h2 {
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+}
+.first_part_left_stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #fff;
+}
+.btn_first_part_left {
+    border: none;
+    border-radius: 8px;
+    padding: 12px 40px;
+    width: 178px;
+    text-decoration: none;
+    color: white;
+    background: #D6EF0E;
+}
+.green_text {
+    color: #d6ef0e;
 }
