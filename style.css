@@ -74,6 +74,15 @@ line-height: 160%;
     color: white;
     background: #D6EF0E;
 }
+.btn_first_part_right {
+    text-decoration:none;
+    font-family: "Inter", sans-serif;
+font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+color: #fffffd;
+padding-left: 36px;
+}
 .green_text {
     color: #d6ef0e;
 }
