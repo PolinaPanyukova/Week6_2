@@ -7,18 +7,24 @@ body {
     padding: 28px 111px 28px 111px;
     align-items: center;
 }
-.navbar a {
+
+.navbar_element {
     text-decoration:none;
     color: rgba(255, 255, 253, 0.72);
     padding-right: 40px;
-
 }
+
 .navbar {    
     font-family:"Inter", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 160%;
-   
+}
+.navbar_marketplace {
+    text-decoration: underline;
+text-decoration-color: #D6EF0E;
+color: rgba(255, 255, 253, 0.72);
+    padding-right: 40px;
 }
 .btn_header {
     border: none;
@@ -28,6 +34,7 @@ body {
     text-decoration: none;
     color: white;
     background: #D6EF0E;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .btn_header:hover {
