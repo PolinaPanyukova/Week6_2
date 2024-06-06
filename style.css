@@ -6,6 +6,7 @@ body {
     justify-content: space-between;
     padding: 28px 111px 28px 111px;
     align-items: center;
+    
 }
 
 .navbar_element {
@@ -48,6 +49,10 @@ color: rgba(255, 255, 253, 0.72);
     display: grid;
     grid-template-columns: 1fr 1fr ;
     padding: 92px 111px;
+    width: 1512px;
+    height: 821px;
+    box-sizing: border-box;
+
 }
 .first_part_left_txt_btn {
     font-family:"Inter", sans-serif;
@@ -200,7 +205,114 @@ line-height: 120%;
 }
 .stat_text_bottom {
     font-family: "Inter", sans-serif;
-font-weight: 400;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.second_part_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.second_part_top_text {
+    font-family: 'Canela Trial', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+    color: #fffffd;
+}
+.btn_second_part {
+    border-radius: 8px;
+    padding: 12px 40px;
+    width: 134px;
+    height: 52px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    color: #fff;
+    background: #d6ef0e;
+}
+.second_part {
+    padding: 92px 111px;
+    width: 1512px;
+    height: 862px;
+box-sizing: border-box;
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding-top: 64px;
+}
+.one_cards {
+    text-align: center;
+    border-top: 1px solid #d6ef0e;
+    border-radius: 28px;
+    padding: 20px;
+    width: 410px;
+    height: 498px;
+    background: #131e3a;
+    box-sizing: border-box;
+}
+.frame_1_1 {
+    display: flex;
+    justify-content: space-between;
+}
+.frame_1_1 p {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #fffffd;
+}
+.frame_1 {
+    padding: 20px;
+}
+.frame_1_1_1 {
+    display: flex;
+}
+.frame_1_1_1 p {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    color: #fffffd;
+}
+.btn_frame_1_2 {
+    border: 1px solid #d6ef0e;
+    border-radius: 8px;
+    padding: 12px 40px;
+    width: 168px;
+    height: 48px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    color: #d6ef0e;
+    background: #131e3a;
+}
+.frame_1_2 {
+    display:flex;
+    justify-content: space-between;
+    padding-top: 16px;
+}
+.frame_1_2_left_clock {
+    display: flex;
+}
+.frame_1_2_left_text {
+    text-align: start;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #838382;
+}
+.frame_1_2_left_clock_text {
+    font-family: "Inter", sans-serif;
+font-weight: 700;
 font-size: 16px;
-line-height: 160%;
+line-height: 120%;
+color: #fffffd;
+padding-left: 12px;
 }
