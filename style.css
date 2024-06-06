@@ -56,12 +56,14 @@ color: rgba(255, 255, 253, 0.72);
    
 }
 h1 {
+    font-family: 'Canela Trial', sans-serif;
     margin: 0;
 font-weight: 500;
 font-size: 64px;
 line-height: 120%;
 }
 h2 {
+    font-family: "Inter", sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 160%;
@@ -186,7 +188,7 @@ p {
 }
 
 .stat_text_top {
-    font-family: "Canela", sans-serif;
+    font-family: 'Canela Trial', sans-serif;
 font-weight: 500;
 font-size: 48px;
 line-height: 120%;
