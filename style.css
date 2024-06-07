@@ -1,11 +1,15 @@
 body {
     background: #090f1d;
+    max-width: 1512px;
 }
 .header_container {
     display: flex;
     justify-content: space-between;
+    width: 1512px;
+    height: 104px;
     padding: 28px 111px 28px 111px;
     align-items: center;
+    box-sizing: border-box;
     
 }
 
@@ -112,10 +116,10 @@ padding-left: 36px;
 .foto_first_part_2 {
     position: absolute;
     z-index: 3;
-    width: 171.5px;
+    width: 171px;
    left: 60px;
    top: 223px;
-   height: 171.5px;
+   height: 171px;
    transform: rotate(-90deg);
 }
 .foto_first_part_3 {
