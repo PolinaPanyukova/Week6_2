@@ -76,6 +76,7 @@ h2 {
 font-weight: 400;
 font-size: 16px;
 line-height: 160%;
+padding-bottom: 40px;
 }
 .first_part_left_stats {
     display: flex;
@@ -83,23 +84,22 @@ line-height: 160%;
     margin-top:  72px;
 }
 .btn_first_part_left {
-
     border: none;
     border-radius: 8px;
     padding: 12px 40px;
     width: 178px;
     text-decoration: none;
     color: white;
-    background: #D6EF0E;
+    background: #d6ef0e; 
 }
 .btn_first_part_right {
     text-decoration:none;
     font-family: "Inter", sans-serif;
-font-weight: 700;
-font-size: 16px;
-line-height: 120%;
-color: #fffffd;
-padding-left: 36px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    color: #fffffd;
+    padding-left: 36px;
 }
 .green_text {
     color: #d6ef0e;
@@ -319,4 +319,80 @@ font-size: 16px;
 line-height: 120%;
 color: #fffffd;
 padding-left: 12px;
+}
+.third_part {
+    padding: 92px 111px;
+    width: 1512px;
+    height: 743px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.third_part_foto_right {
+    position: absolute;
+
+}
+.third_part_foto_left {
+    position: absolute;
+}
+.third_part_foto_right_part {
+    position: relative;
+    width: 740px;
+    height: 559px;
+}
+.third_part_foto_right_1 {
+    position: absolute;
+    z-index: 5;
+    border-radius: 24px;
+    width: 410px;
+    height: 400px;
+    margin-top: 251px;   
+}
+
+.third_part_foto_right_2 {
+    position: absolute;
+    z-index: 4;
+    border-radius: 24px;
+    width: 410px;
+    height: 475px;
+    margin-top: 72px;
+    margin-left: 330px;
+}
+.third_part_foto_right_3 {
+    width: 346px;
+    position: absolute;
+    z-index: 3;
+    margin-top: 478px;
+    margin-left: 420px;
+}
+.second_part_foto_aside_between {
+    position: absolute;
+    z-index: 3;
+    width: 434px;
+    margin-top: 392px;
+    margin-left: 1000px;   
+}
+.third_part_content {
+    width: 426px;
+    height: 280px; 
+    margin-top:  232px; 
+    margin-right: 124px;
+}
+
+
+.third_part_content_title_text_one {
+    font-family: 'Canela Trial', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+    color: #fffffd;
+    padding-bottom: 20px;
+}
+.third_part_content_title_text_two {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #fffffd;
+    padding-bottom: 20px;
 }
