@@ -465,12 +465,15 @@ padding-left: 12px;
     height: 376px;
     
 }
-.fifth_part_foto_right_3 {
-    width: 346px;
+.fifth_part_foto_right {
     position: absolute;
     z-index: 3;
-    margin-top: 478px;
-    margin-left: 420px;
+    width: 513px;
+    height: 358px;
+    margin-left: -199px;
+    margin-top: -101px;
+    filter: blur(350px);
+background: #1f413d;
 }
 .fifth_part_content {
     height: 280px; 
