@@ -431,3 +431,105 @@ padding-left: 12px;
     grid-row: 1/3;
     grid-column: 4/5;
 }
+
+.fifth_part {
+    padding: 92px 111px;
+    width: 1512px;
+    height: 743px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.fifth_part_foto_right {
+    position: absolute;
+}
+.fifth_part_foto_right_part {
+    position: relative;
+    width: 630px;
+    height: 458px;
+}
+.fifth_part_foto_right_1 {
+    position: absolute;
+    z-index: 5;
+    border-radius: 16px;
+    width: 282px;
+    height: 348px;
+    margin-top: 110px;   
+    margin-left: 348px;
+}
+.fifth_part_foto_right_2 {
+    position: absolute;
+    z-index: 4;
+    border-radius: 20px;
+    width: 410px;
+    height: 376px;
+    
+}
+.fifth_part_foto_right_3 {
+    width: 346px;
+    position: absolute;
+    z-index: 3;
+    margin-top: 478px;
+    margin-left: 420px;
+}
+.fifth_part_content {
+    height: 280px; 
+    margin:  85px 0 85px 140px; 
+    
+}
+.fifth_part_content_title_text_one {
+    font-family: 'Canela Trial', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+    color: #fffffd;
+    padding-bottom: 20px;
+}
+.fifth_part_content_title_text_one {
+    font-family: 'Canela Trial', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+    color: #fffffd;
+    padding-bottom: 20px;
+}
+.fifth_part_content_title_text_two {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #fffffd;
+    padding-bottom: 20px;
+}
+.btn_fifth_part_left {
+    border: none;
+    border-radius: 8px;
+    width: 178px;
+    height: 52px;
+    text-decoration: none;
+    color: white;
+    background: #d6ef0e; 
+}
+.btn_fifth_part_right {
+    text-decoration:none;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    color: #fffffd;
+    padding-left: 36px;
+}
+.email {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    border-radius: 8px;
+    height: 60px;
+    width: 516px;
+    background: #131e3a;
+}
+#userEmail {
+    text-align: center;
+    border: none;
+    background: #131e3a;
+}
