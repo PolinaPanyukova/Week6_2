@@ -6,7 +6,7 @@ body {
     position: absolute;
     z-index: -1;
     width: 1512px;
-    height: 4678px;
+    height: 4718px;
     opacity: 5%;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
@@ -541,4 +541,81 @@ padding-left: 12px;
     text-align: center;
     border: none;
     background: #131e3a;
+}
+.footer {
+    padding: 92px 111px;
+    width: 1512px;
+    height: 482px;
+box-sizing: border-box;
+}
+.footer_one_part {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    height: 224px;
+    border-bottom: 1px solid #838382;
+    padding: 0px 0px 48px 0px;
+    width: 1253px;
+    box-sizing: border-box; 
+}
+.footer_one_part_column {
+    display: flex;
+    flex-direction: column;
+}
+.text_column_br {
+    font-family: "Inter", sans-serif;
+    text-decoration:none;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 24px;
+    color: #fff;
+}
+.text_column {
+    text-decoration:none;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: rgba(255, 255, 253, 0.72);
+}
+.footer_one_part_column_left_text {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: rgba(255, 255, 253, 0.72);
+    padding-right: 293px ;
+    width: 272px;
+    height: 126px;
+}
+.footer_one_part_column_left_social {
+    display: flex;
+    justify-content: flex-start;
+    width: 132px;
+    height: 24px;
+    gap: 12px;
+}
+.footer_two_part {
+    display: flex;
+    justify-content: space-between;
+    width: 1290px;
+    height: 26px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: rgba(255, 255, 253, 0.72);
+    text-shadow: 0 4px 4px  rgba(0, 0, 0, 0.25);
+    margin-top: 48px;
+    box-sizing: border-box; 
+}
+.footer_two_part_right {
+    display: flex;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: rgba(255, 255, 253, 0.72);
+    text-shadow: 0 4px 4px  rgba(0, 0, 0, 0.25);
 }
