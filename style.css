@@ -2,6 +2,14 @@ body {
     background: #090f1d;
     max-width: 1512px;
 }
+.bg {
+    position: absolute;
+    z-index: -1;
+    width: 1512px;
+    height: 4678px;
+    opacity: 5%;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
 .header_container {
     display: flex;
     justify-content: space-between;
@@ -472,8 +480,6 @@ padding-left: 12px;
     height: 358px;
     margin-left: -199px;
     margin-top: -101px;
-    filter: blur(350px);
-background: #1f413d;
 }
 .fifth_part_content {
     height: 280px; 
